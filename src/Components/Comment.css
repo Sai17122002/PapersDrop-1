@@ -1,0 +1,33 @@
+.comment-parent {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 25px;
+  padding-bottom: 30px;
+}
+
+.comment-image {
+  border-radius: 50%;
+  background: blue;
+  height: 70px;
+  width: 70px;
+}
+
+.name-month {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  margin-bottom: 10px;
+}
+
+.name-month .name {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.name-month .month {
+  font-weight: 100;
+  font-size: 15px;
+  margin-top: 5px;
+}
